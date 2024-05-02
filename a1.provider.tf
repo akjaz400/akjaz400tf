@@ -10,10 +10,10 @@ provider "azurerm" {
 
     }
     backend "azurerm" {
-        resource_group_name = ""
-        storage_account_name = ""
-        container = ""
-        key = ""
+        resource_group_name = "akjaz4tf"
+        storage_account_name = "akjaz4tf"
+        container = "tfstate"
+        key = "project.tfstate"
     }
   }
   alias = "provider2-westus"
