@@ -17,7 +17,7 @@ variable "resource_group_name" {
 
 variable "resource_group_location" {
   type = string
-  default = "eastus"
+  default = "westus"
 }
 
 variable "virtual_network_name" {
